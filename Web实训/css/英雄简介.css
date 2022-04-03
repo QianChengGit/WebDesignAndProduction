@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	border: 1px solid red;
+	margin: 0 auto;
+	background-color: lightgray;
+	background: url(../img/背景12.jpg) center no-repeat;
+}
+.zzh{
+	width: 980px;
+	height: 1280px;
+	margin: 0 auto;
+	border: 5px solid skyblue;
+	
+}
+.A{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.center{
+	width: 100px;
+	height: 75px;
+	float: left;
+	margin-left: 330px;
+}
+.center img{
+	width: 100px;
+	height: 110px;
+	
+}
+.left{ 
+	margin-left: 270px;
+	float: left;
+}
+.left img{
+	width: 120px;
+	height: 100px;
+}
+.right{
+	width: 40px;
+	height: 20px;
+	margin-right: 290px;
+	margin-top: 30px;
+	float: right;
+}
+.right:hover{
+	box-shadow: 5px 5px 20px rgba(0,180,225,1);
+}
+.A a{ 
+	color: whitesmoke;
+	text-decoration: none;
+}
+.A a:hover{ 
+	color: orangered;
+}
+.B{
+	width: 980px;
+	height: 400px;
+	float: left;
+}
+.One{
+	width: 220px;
+	height: 300px;
+	border: 5px solid red;
+	margin-right: 10px;
+	margin-left: 14px;
+	margin-top: 5px;
+	float: left;
+	
+}
+
+.One img{
+	width: 220px;
+	height: 300px;
+}
+.One:hover{
+	
+	transform: scale(1.1) rotate(5deg);
+	box-shadow: 5px 5px 15px rgba(0,180,225,0.7);
+}
+.Two{
+	width: 220px;
+	height: 300px;
+	border: 1px solid red;
+	margin-right: 10px;
+	margin-top: 15px;
+	float: left;
+	color: whitesmoke;
+}
+.Two:hover{
+	box-shadow: 5px 5px 15px rgba(0,180,225,0.5);
+}
+
+.img1:hover{
+	box-shadow: 5px 5px 15px rgba(0,180,225,0.7);
+}
+
+.C{
+	width: 100%;
+	height: 70px;
+	background-color: purple;
+	text-align: center;
+	line-height: 70px;
+	float: left;
+}
+
+

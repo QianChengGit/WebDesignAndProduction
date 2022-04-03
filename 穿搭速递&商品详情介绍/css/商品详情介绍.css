@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	width: 1160px;
+	height: 3200px;
+	border: 1px solid red;
+	margin: 5px auto;
+	background-color: #D5D5D5;
+}
+.a{
+	width: 300px;
+	height: 3200px;
+	border: 1px none darkgray;
+	float: left;
+	background-color: white;
+}
+h2{
+	height: 50px;
+	line-height: 50px;
+	background-color: #A9A9A9;
+	text-align: center;
+	font-size: 15px;
+}
+dd{
+	list-style: none;
+}
+.a_img{
+	width: 210px;
+	margin: 0 auto;
+}
+.a_name{
+	text-align: center;
+	font-size: 15px;
+	color: #020202;
+}
+.a_price{
+	color: red;
+	text-align: center;
+}
+.A{
+	width: 750px;
+	height: 2760px;
+	border: 1px none darkgray;
+	float: right;
+}
+.b{
+	width: 750px;
+	height: 50px;
+	border: 1px none darkgray;
+	float: right;
+	margin-bottom: 5px;
+}
+.b li{
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	list-style: none;
+	background-color: #A9A9A9;
+	text-align: center;
+	font-size: 15px;
+	float: left;
+}
+.c{
+	height: 300px;
+	width: 750px;
+	border: 1px none darkgray;
+}
+.c b{
+	font-size: 15px;
+}
+.c hr{
+	width: 100px;
+	color: red;
+	float: left;
+	
+}
+.c_1{
+	margin-left: 70px;
+	width: 180px;
+	float: left;
+}
+.c li{
+	font-size: 12px;
+}
+.d{
+	width: 600px;
+	height: 2850px;
+}
+.d .d1{
+	width: 600px;
+	height: 365px;
+}
+.d .d2{
+	width: 600px;
+	height: 430px;
+}
+.d .d3{
+	width: 600px;
+	height: 400px;
+}
+.d .d4{
+	width: 600px;
+	height: 850px;
+}
+.d .d5{
+	width: 600px;
+	height: 365px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS动画</title>
+		<style type="text/css">
+		#demo{
+				width: 20px;
+				height: 20px;
+				background: yellow;
+				border-radius: 100px;
+				position: absolute;
+				left: 150px;
+				top: 100px;
+				animation-name: demo; 
+				animation-duration: 5s;
+				animation-timing-function: ease-in-out; 
+				animation-iteration-count: infinite;
+				animation-direction: normal;        
+			}
+			@keyframes demo{
+				0%{transform: translateX(0);
+				background: aqua;}
+				35%{transform: translateX(400px);
+				background: crimson;}
+				70%{transform: translate(200px,340px);
+				background:slateblue;}
+				100%{transform: translateX(0);
+				background: yellow;}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="demo"></div>
+	</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	margin: 0 auto;
+	font: "微软雅黑";
+	font-size: 16px;
+	color: #404042;
+}
+a{
+	list-style: none;
+}
+.header{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+.header .left{ 
+	float: left;
+}
+.header .right{
+	margin-top: 30px;
+	float: right;
+}
+.header a{ 
+	color: #404042;
+	text-decoration: none;
+}
+.header a:hover{ 
+	color: orangered;
+}
+
+.nav{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #404042;	
+}
+.nav .nav_in{
+	width: 980px;
+	margin: 0 auto;
+}
+.nav_in li{ 
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+}
+.nav_in li a{
+	display: inline-block;
+	width: 190px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+}
+.nav_in li.current{ 
+	
+}
+.nav_in a:hover{ 
+	background-color: #FF4500;
+}
+
+ .banner{
+	margin: 0 auto;
+}
+.banner .ban{
+	 position: relative;
+	 margin: 5px auto;
+}
+.banner .list{
+	 width: 980px;
+	 margin: 5px auto ;
+}
+.banner .list li{
+	width: 242px;
+	height: 80px;
+	border: 1px solid darkgrey;
+	float: left;
+}
+.banner .list li.last{
+	height: 80px;
+}
+.banner .list li img{
+	margin: 20px;
+	float: left;
+}
+.banner .list li a{
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+}
+.banner .list li a:hover{ 
+	color: #FF4500;
+}
+.banner .list li span{
+	font-size: 13px;
+	color: darkgrey;
+}
+
+
+.content{
+	width: 980px;
+	margin: 0 auto;
+}
+.content h2{
+	font: "微软雅黑";
+	font-size: 18px;
+	margin: 0px;
+}
+.content .pic{
+	width: 980px;
+	margin: 0 auto;
+}
+.content .pic li{
+	margin: 8px;
+	float: left;
+}
+.content .pic img{ 
+	float: left;
+}
+.content .pic .not{ }
+.content .txt{
+	width: 980px;
+	margin: 0 auto;
+}
+.content .txt hr{
+	width: 250px;
+}
+.content .txt li{
+	width: 280px;
+	height: 290px;
+	border: 1px solid darkgrey;
+	float: left;
+	margin: 20px;
+}
+.content .txt li.right{ 
+	
+}
+.content .txt li h3{ 
+	font-size: 15px;
+	margin: 10px;
+}
+.content .txt li dl{
+	width: 280px;
+	height: 80px;
+	float: left;
+}
+.content .txt li dl dt{
+	margin: 10px;
+}
+.content .txt li dl .last{
+	
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	background-color: #404042;
+	float: left;
+}
+.footer p{
+	 line-height: 40px;
+	 text-align: center;
+	 color: white;
+}

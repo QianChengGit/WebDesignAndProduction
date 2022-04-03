@@ -1,0 +1,81 @@
+body{
+	margin: 0 auto;
+	width: 980px;
+	background-color: #ededed;
+	font-family: "隶书";
+	font-size: 16px;
+	color:#303131;
+}
+.header{
+	width: 980px;
+	height: 114px;
+	margin: 0 auto;
+	background-color: #525252;
+	text-align: center;
+}
+.banner{
+	width: 980px;
+	margin: 0 auto;
+}
+.banner h2{
+	font-size: 18px;
+	height: 40px;
+}
+.content{
+	width:980PX;
+	margin:0 auto;
+ 	color: #303131;
+	font-size:18PX; 
+ 	text-align: left;
+ 	}
+.content h2{
+ 	font-family: "楷体";
+ 	font-size: 35px;
+ 	text-align:center;
+ 	color: #7C251C;
+ }
+.content h3{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-align:center; 
+	color: #7C251C;
+}
+.content p{
+	 font-family: "微软雅黑";
+	 font-size: 13px;
+	 text-indent: 2em;
+ }
+.content p i{
+	 font-family: "微软雅黑";
+	 font-size: 16px;
+	 color: #7C251C;
+}
+.content p strong,.content p u{ 
+	 font-family: "微软雅黑";
+	 font-size: 16px;
+	 color: #7C251C;
+}
+.content p u{ 
+	 font-family: "微软雅黑";
+	 font-size: 13px; 
+	 color: #7C251C;
+}
+.content p b{
+	 font-family: "微软雅黑";
+	 font-size: 13px; 
+	 color: #7C251C;
+}
+.content p font{
+	background-color: gold;
+}
+ .footer{
+ 	width: 980; 
+ 	margin: 0 auto;
+ 	height:70px;
+ 	line-height:10px;
+ 	color: white;
+ 	font-family: "微软雅黑" ;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	background-color: #303131;
+}

@@ -1,0 +1,31 @@
+body{
+	width: 980px;
+	margin: 0 auto;
+}
+div{
+	width: 120px;
+	height: 120px;
+	border: 5px solid black;
+	float: left;
+	margin: 6px;
+}
+.a{
+	border: 5px solid red;
+	
+}
+.b{
+	border: 5px solid black;
+}
+.c{
+	border: 5px solid green;
+}
+.d{
+	border: 5px solid yellow;
+}
+.img{
+	width: 800px;
+	height: 780px;
+	background-image: url(../img/4.jpg),url(../img/2.jpg),url(../img/5.jpg);
+	background-repeat: repeat-x,no-repeat,repeat-x;
+	background-position: top,center,bottom;
+}

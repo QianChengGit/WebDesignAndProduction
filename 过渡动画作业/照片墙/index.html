@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>移动变形</title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				background: blueviolet;
+				position: relative;
+				left: 100px;
+				top: 100px;
+				transition: 10s ease-in-out; 
+			}
+			div:hover{
+				background: chartreuse;
+				transform: translateX(200px) rotate(90deg) scale(2);
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>

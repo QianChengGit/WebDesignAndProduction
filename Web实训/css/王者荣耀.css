@@ -1,0 +1,304 @@
+body{
+	margin: 0 auto;
+	
+}
+.zzh{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.A{
+	width: 100%;
+	height: 77px;
+	background-color: dodgerblue;
+}
+
+.header{
+	width: 980px;
+	height: 77px;
+	margin: 0 auto;
+	
+}
+.header .left{ 
+	float: left;
+}
+.header .right{
+	margin-top: 30px;
+	float: right;
+}
+.header a{ 
+	color: #404042;
+	text-decoration: none;
+}
+.header a:hover{ 
+	color: orangered;
+}
+.header img{
+	width: 100px;
+	height: 75px;
+	margin-left: 0;
+	float: left;
+}
+.center{
+	width: 100px;
+	height: 75px;
+	float: left;
+	margin-left: 300px;
+}
+
+.sou{
+	line-height: 75px;
+}
+.sou a:hover{
+	color: #FFD700;
+}
+.B{
+width: 980px;
+height: 500px;
+overflow: hidden;
+margin: 0 auto;
+border: solid 1px red;
+}
+.a{
+	width: 3920px;
+	height: 500px;
+	animation: dong 10s linear infinite;
+}
+@keyframes dong{
+	0%{margin-left: 0px;}
+	20%{margin-left: 0px;}
+	25%{margin-left: -980px;}
+	45%{margin-left: -980px;}
+	50%{margin-left: -1960px;}
+	70%{margin-left: -1960px;}
+	75%{margin-left: -2940px;}
+	95%{margin-left: -2940px;}
+	100%{margin-left: -0px;}
+}
+.a img{
+	width: 980px;
+	height: 500px;
+	margin-left: 0;
+	float: left;
+}
+.nav{
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: black;	
+}
+.nav .nav_in{
+	width: 980px;
+	margin: 0 auto;
+}
+.nav_in li{ 
+	width: 180px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+}
+.nav_in li a{
+	display: inline-block;
+	width: 190px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+}
+.nav_in a:hover{ 
+	background-color: deepskyblue;
+}
+
+.C{
+	width: 980px;
+	height: 70px;
+}
+.C img{
+	width: 50px;
+	height: 60px;
+	float: left;
+	margin: 5px;
+}
+
+.C font{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: whitesmoke;
+	line-height: 70px;
+	margin-left: 10px;
+}
+
+.D{
+	width: 980px;
+	height: 650px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.D img{
+	width: 200px;
+	height: 280px;
+	border: 1px solid red;
+	margin: 10px;
+	margin-left: 25px;
+	transition: 0.3s ease;
+}
+
+.E img{
+	width: 260px;
+	position: fixed;
+	float: right;
+	right: 0%;
+	bottom: 10%;
+	transition: 0.3s ease;
+}
+.F img{
+	width: 270px;
+	position: fixed;
+	float: left;
+	left: 0%;
+	bottom: 10%;
+	transition: 0.3s ease;
+}
+
+.G{
+	width: 980px;
+	height: 500px;
+	border: 7px solid cornflowerblue;
+	background: url(../img/王者素材S81228-133641.jpg) center no-repeat;
+}
+
+.H{
+	width: 980px;
+	height: 310px;
+	margin: 0 auto;
+	background: url(../img/背景04.jpg) center;
+}
+.H .One{
+	width: 320px;
+	height: 300px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 3px;
+	border-left: 1px solid darkgrey;
+	border-right: 1px solid darkgrey;
+}
+
+.H .One .two a{
+	width: 310px;
+	height: 70px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+.H .One .two a:link,a:visited{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.H .One .two a:hover{
+	color: #7FFFD4;
+	background: url(../img/半透明.png);
+	box-shadow: 5px 5px 15px rgba(105,205,225,0.7);
+}
+
+.H .One .two img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 5px;
+	margin-right: 10px;
+}
+.H .One .two font{
+	line-height: 60px;
+}
+hr{
+	width: 950px;
+	size: a4;
+	color: #404042;
+}
+.H .One .two hr{
+	width: 290px;
+	size: a5;
+	color: #6495ED;
+}
+.I{
+	width: 100%;
+	height: 70px;
+	background-color: blue;
+	text-align: center;
+	line-height: 70px;
+}
+
+.img1:hover{
+	transform: translateX(-20px);
+}
+.img2:hover{
+	transform: translateX(20px);
+}
+.img3:hover{
+	transform: rotate(20deg);
+	box-shadow: 5px 5px 10px rgba(105,205,225,1);
+}
+.K{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+.header #demo{
+	width: 20px;
+	height: 20px;
+	background: yellow;
+	border-radius: 100px;
+	float: left;
+	margin-left: 20px;
+	animation-name: demo; 
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out; 
+	animation-iteration-count: infinite;
+	animation-direction: normal;        
+}
+@keyframes demo{
+	0%{transform: translate(0px,60px);
+	background: aqua;}
+	10%{
+	transform: translate(60px,0px);
+	background:white;
+	}
+	20%{
+	transform: translate(120px,60px);
+	background:green;
+	}
+	30%{
+	transform: translate(180px,0px);
+	background:olive;
+	}
+	40%{
+	transform: translate(240px,60px);
+	background:paleturquoise;
+	}
+	50%{
+	transform: translate(300px,0px);
+	background:plum;
+	}
+	60%{
+	transform: translate(240px,60px);
+	background:purple;
+	}
+	70%{
+	transform: translate(180px,0px);
+	background:blue;
+	}
+	80%{
+	transform: translate(120px,60px);
+	background:black;
+	}
+	90%{
+	transform: translate(60px,0px);
+	background:slateblue;
+	}
+	100%{transform: translate(0px,60px);
+	background: yellow;}
+	
+}
